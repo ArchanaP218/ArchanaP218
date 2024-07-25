@@ -27,6 +27,8 @@ public class test {
 	Thread.sleep(2000);
 	driver.quit();
 		
+	System.out.println("hello all");
+	
 		
 	}
 

@@ -25,8 +25,9 @@ public class LOGINPAGECHECK {
 
 	Assert.assertEquals("http://192.168.168.101:8091/WelcomePage.aspx", driver.getCurrentUrl());
 	Thread.sleep(2000);
+
 	driver.quit();
-		
+	System.out.println("close all");	
 		
 	}
 	
