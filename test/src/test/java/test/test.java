@@ -17,7 +17,7 @@ public class test {
 	ChromeDriver driver= new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("http://192.168.168.101:8091/WelcomePage.aspx");
-
+	Thread.sleep(2000);
 	driver.findElement(By.id("txtUsername")).sendKeys("ittest");
 	driver.findElement(By.id("txtPassword")).sendKeys("654");
 	driver.findElement(By.id("btnLogin")).click();
